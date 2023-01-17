@@ -17,7 +17,7 @@ class CreateUserUseCase {
     }
     this.usersRepository.create({ name, email });
 
-    return this.usersRepository.list();
+    return userAlreadyExist;
   }
 }
 
