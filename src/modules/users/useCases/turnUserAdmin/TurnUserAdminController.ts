@@ -8,6 +8,8 @@ class TurnUserAdminController {
   handle(request: Request, response: Response): Response {
     const { id } = request.params;
 
+    this.turnUserAdminUseCase.execute({ user_id: id as string });
+
     return response.status(201).send();
   }
 }
