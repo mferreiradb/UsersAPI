@@ -8,6 +8,14 @@ class UsersRepository implements IUsersRepository {
 
   private constructor() {
     this.users = [];
+    this.users.push({
+      id: "1",
+      name: "test",
+      admin: false,
+      email: "test@test.com",
+      created_at: new Date(),
+      updated_at: new Date(),
+    });
   }
 
   public static getInstance(): UsersRepository {
