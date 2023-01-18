@@ -2,6 +2,10 @@
 
 - API dedicada a gerenciamento de cadastros de usuários, com autenticação e tratativa de erros
 
+*Documentação completa da aplicação*
+
+- /api-docs
+
 *Rotas da aplicação*
 
 - POST /users
