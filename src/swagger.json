@@ -76,7 +76,7 @@
                 "description": "Retorna todos os usuários",
                 "responses": {
                     "200": {
-                        "description": "Sucess",
+                        "description": "Operação realizada com sucesso.",
                         "content": {
                             "application/json": {
                                 "schema": {
@@ -104,14 +104,41 @@
                                             }
                                         }
                                     },
-                                    "example": {
-                                        "admin": true,
-                                        "id": "153d1f3a-ff85-4e28-b3aa-e557fff994e2",
-                                        "name": "Name example",
-                                        "email": "email@example.com",
-                                        "created_at": "2023-01-18T14:35:19.817Z",
-                                        "updated_at": "2023-01-18T14:35:45.457Z"
-                                    }
+                                    "example": [
+                                        {
+                                            "admin": true,
+                                            "id": "153d1f3a-ff85-4e28-b3aa-e557fff994e2",
+                                            "name": "Name example",
+                                            "email": "email@example.com",
+                                            "created_at": "2023-01-18T14:35:19.817Z",
+                                            "updated_at": "2023-01-18T14:35:45.457Z"
+                                        },
+                                        {
+                                            "admin": false,
+                                            "id": "e4d1eecf-ab52-46fe-b2dc-45b977aa8c1e",
+                                            "name": "test",
+                                            "email": "test@test.com",
+                                            "created_at": "2023-01-18T17:55:10.651Z",
+                                            "updated_at": "2023-01-18T17:55:51.969Z"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "[Usuário não é um admin!] ou [Usuário não existe!]",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "example": [
+                                        {
+                                            "error": "User is not admin."
+                                        },
+                                        {
+                                            "error": "User does not exists!"
+                                        }
+                                    ]
                                 }
                             }
                         }
