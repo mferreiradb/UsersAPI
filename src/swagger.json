@@ -79,7 +79,7 @@
                         "name": "user_id",
                         "required": true,
                         "schema": {
-                            "type": "string (uuid())"
+                            "type": "string(uuid())"
                         }
                     }
                 ],
