@@ -138,7 +138,7 @@
                         }
                     },
                     "400": {
-                        "description": "[Usuário não é um admin!] ou [Usuário não existe!]",
+                        "description": "`Usuário não é um admin!` ou `Usuário não existe!`",
                         "content": {
                             "application/json": {
                                 "schema": {
