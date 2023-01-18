@@ -16,6 +16,7 @@
                 ],
                 "summary": "Cria um novo usuário",
                 "requestBody": {
+                    "required": true,
                     "content": {
                         "application/json": {
                             "schema": {
@@ -72,8 +73,18 @@
                 "tags": [
                     "User"
                 ],
+                "parameters": [
+                    {
+                        "in": "header",
+                        "name": "user_id",
+                        "required": true,
+                        "schema": {
+                            "type": "string (uuid())"
+                        }
+                    }
+                ],
                 "summary": "Retorna todos os usuários",
-                "description": "Retorna todos os usuários",
+                "description": "Retorna todos os usuários (Somente usuários `admin` podem acessar)",
                 "responses": {
                     "200": {
                         "description": "Operação realizada com sucesso.",
