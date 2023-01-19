@@ -1,5 +1,7 @@
 **Users API**
 
+![uso-demo](assets/2023-01-18%2021-17-24.gif)
+
 - API dedicada a gerenciamento de cadastros de usuários, com autenticação e tratativa de erros
 
 *Dependencias*
