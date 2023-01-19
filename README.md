@@ -5,26 +5,18 @@
 *Dependencias*
 - Typescript
 
-        ```
         npm i -D typescript
-        ```
 
 - Express
 
-        ```
         npm i express
-        ```
 
 - Tipagem para express
 
-        ```
         npm i -D @types/express
-        ```
 - Ts-node-dev
 
-        ```
         npm i -D ts-node-dev
-        ```
 
 - UUID
 
@@ -34,15 +26,11 @@
 
   - A V4 é a mais utilizada e gera uma string com caracteres aleatórios
 
-        ```
         npm i uuid
-        ```
 
 - Tipagem para UUID
 
-        ```
         npm i -D @types/uuid
-        ```
 
 - Swagger/Swagger UI Express
 
@@ -50,15 +38,11 @@
   
   - Swagger UI Express para implementação do Swagger
 
-        ```
         npm install swagger-ui-express
-        ```
 
 - Tpagem para Swagger UI Express
 
-        ```
         npm i -D @types/swagger-ui-express
-        ```
 
 *Documentação completa da aplicação*
 
