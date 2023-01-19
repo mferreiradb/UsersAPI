@@ -79,7 +79,7 @@
                         "name": "user_id",
                         "required": true,
                         "schema": {
-                            "type": "string($uuid)"
+                            "type": "string"
                         }
                     }
                 ],
@@ -169,7 +169,7 @@
                         "required": true,
                         "description": "ID do usuário",
                         "schema": {
-                            "type": "string($uuid)"
+                            "type": "string"
                         }
                     }
                 ],
@@ -219,7 +219,7 @@
                         "name": "user_id",
                         "required": true,
                         "schema": {
-                            "type": "string($uuid)"
+                            "type": "string"
                         }
                     }
                 ],
