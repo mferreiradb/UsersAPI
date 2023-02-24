@@ -1,10 +1,20 @@
-**Users API**
+<h1 align="center">Users API</h1>
+
+<p align="center">API dedicada a gerenciamento de cadastros de usuários/p>
+
+![Badge](https://img.shields.io/badge/Version-1.0.0-yellow?style=for-the-badge&logo=ghost)
+![Badge](https://img.shields.io/badge/Typescript-^4.9.5-blue?style=for-the-badge&logo=ghost)
+![Badge](https://img.shields.io/badge/Swagger_ui_express-^4.6.0-brightgreen?style=for-the-badge&logo=ghost)
+![Badge](https://img.shields.io/badge/Express-^4.18.2-lightgrey?style=for-the-badge&logo=ghost)
+![Badge](https://img.shields.io/badge/License-MIT-brightgreen?style=for-the-badge&logo=ghost)
+![Badge](https://img.shields.io/badge/Status-Finished-brightgreen?style=for-the-badge&logo=ghost)
+
+<p align="center">O projeto tem o objetivo de gerenciar cadastros de usuários, com autenticação e tratativa de erros</p>
 
 ![uso-demo](assets/2023-01-18%2021-17-24.gif)
 
-- API dedicada a gerenciamento de cadastros de usuários, com autenticação e tratativa de erros
+## Instalação de dependências
 
-*Dependencias*
 - Typescript
 
         npm i -D typescript
@@ -16,6 +26,7 @@
 - Tipagem para express
 
         npm i -D @types/express
+        
 - Ts-node-dev
 
         npm i -D ts-node-dev
@@ -50,7 +61,7 @@
 
 - /api-docs
 
-*Rotas da aplicação*
+## Rotas da aplicação
 
 - POST /users
     - Cria um novo usuário
