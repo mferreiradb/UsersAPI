@@ -1,6 +1,6 @@
 <h1 align="center">Users API</h1>
 
-<p align="center">API dedicada a gerenciamento de cadastros de usuários/p>
+<p align="center">API dedicada a gerenciamento de cadastros de usuários</p>
 
 ![Badge](https://img.shields.io/badge/Version-1.0.0-yellow?style=for-the-badge&logo=ghost)
 ![Badge](https://img.shields.io/badge/Typescript-^4.9.5-blue?style=for-the-badge&logo=ghost)
