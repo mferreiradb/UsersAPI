@@ -11,6 +11,10 @@
 
 <p align="center">O projeto tem o objetivo de gerenciar cadastros de usuários, com autenticação e tratativa de erros</p>
 
+## Demonstração
+
+<p align="center">Aguarde o carregamento do GIF</p>
+
 ![uso-demo](assets/2023-01-18%2021-17-24.gif)
 
 ## Instalação de dependências
